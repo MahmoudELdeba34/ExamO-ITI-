@@ -1,0 +1,275 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is JavaScript?",
+      "answers": [
+        {"id": 1, "text": "A markup language", "isCorrect": false},
+        {"id": 2, "text": "A programming language", "isCorrect": true},
+        {"id": 3, "text": "A styling language", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Which keyword is used to declare a variable in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "var", "isCorrect": true},
+        {"id": 2, "text": "let", "isCorrect": true},
+        {"id": 3, "text": "const", "isCorrect": true},
+        {"id": 4, "text": "All of the above", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 3,
+      "text": "What is the output of `typeof null` in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "object", "isCorrect": true},
+        {"id": 2, "text": "null", "isCorrect": false},
+        {"id": 3, "text": "undefined", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Which method is used to add an element to the end of an array?",
+      "answers": [
+        {"id": 1, "text": "push()", "isCorrect": true},
+        {"id": 2, "text": "pop()", "isCorrect": false},
+        {"id": 3, "text": "shift()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 5,
+      "text": "What does the `===` operator check in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "Value only", "isCorrect": false},
+        {"id": 2, "text": "Value and type", "isCorrect": true},
+        {"id": 3, "text": "Type only", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 6,
+      "text": "What is the purpose of the `this` keyword in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "Refers to the current function", "isCorrect": false},
+        {"id": 2, "text": "Refers to the global object", "isCorrect": false},
+        {"id": 3, "text": "Refers to the object it belongs to", "isCorrect": true}
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Which function is used to parse a string to an integer in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "parseInt()", "isCorrect": true},
+        {"id": 2, "text": "parseFloat()", "isCorrect": false},
+        {"id": 3, "text": "toInteger()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 8,
+      "text": "What is the output of `console.log(1 + '1')` in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "2", "isCorrect": false},
+        {"id": 2, "text": "11", "isCorrect": true},
+        {"id": 3, "text": "NaN", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 9,
+      "text": "What is an arrow function in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "A shorter syntax for writing functions", "isCorrect": true},
+        {"id": 2, "text": "A function that uses arrows", "isCorrect": false},
+        {"id": 3, "text": "A type of loop", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 10,
+      "text": "What is the purpose of the `addEventListener` method in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "To add styles to an element", "isCorrect": false},
+        {"id": 2, "text": "To attach an event handler to an element", "isCorrect": true},
+        {"id": 3, "text": "To create a new element", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Which method is used to remove the last element from an array?",
+      "answers": [
+        {"id": 1, "text": "pop()", "isCorrect": true},
+        {"id": 2, "text": "push()", "isCorrect": false},
+        {"id": 3, "text": "shift()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 12,
+      "text": "What is the output of `console.log(typeof [])` in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "array", "isCorrect": false},
+        {"id": 2, "text": "object", "isCorrect": true},
+        {"id": 3, "text": "undefined", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Which method is used to join elements of an array into a string?",
+      "answers": [
+        {"id": 1, "text": "join()", "isCorrect": true},
+        {"id": 2, "text": "concat()", "isCorrect": false},
+        {"id": 3, "text": "split()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 14,
+      "text": "What is the purpose of the `map()` method in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "To create a new array by applying a function to each element", "isCorrect": true},
+        {"id": 2, "text": "To filter elements in an array", "isCorrect": false},
+        {"id": 3, "text": "To sort elements in an array", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 15,
+      "text": "What is the output of `console.log(0 == '0')` in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "true", "isCorrect": true},
+        {"id": 2, "text": "false", "isCorrect": false},
+        {"id": 3, "text": "undefined", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Which method is used to find an element in an array?",
+      "answers": [
+        {"id": 1, "text": "find()", "isCorrect": true},
+        {"id": 2, "text": "search()", "isCorrect": false},
+        {"id": 3, "text": "filter()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 17,
+      "text": "What is the purpose of the `reduce()` method in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "To reduce an array to a single value", "isCorrect": true},
+        {"id": 2, "text": "To filter elements in an array", "isCorrect": false},
+        {"id": 3, "text": "To sort elements in an array", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 18,
+      "text": "What is the output of `console.log(typeof NaN)` in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "number", "isCorrect": true},
+        {"id": 2, "text": "NaN", "isCorrect": false},
+        {"id": 3, "text": "undefined", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Which method is used to convert a string to lowercase?",
+      "answers": [
+        {"id": 1, "text": "toLowerCase()", "isCorrect": true},
+        {"id": 2, "text": "toLower()", "isCorrect": false},
+        {"id": 3, "text": "lowerCase()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 20,
+      "text": "What is the purpose of the `filter()` method in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "To create a new array with elements that pass a test", "isCorrect": true},
+        {"id": 2, "text": "To sort elements in an array", "isCorrect": false},
+        {"id": 3, "text": "To join elements of an array", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 21,
+      "text": "What is the output of `console.log(1 + true)` in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "2", "isCorrect": true},
+        {"id": 2, "text": "NaN", "isCorrect": false},
+        {"id": 3, "text": "undefined", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 22,
+      "text": "What is the purpose of the `find()` method in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "To find the first element that satisfies a condition", "isCorrect": true},
+        {"id": 2, "text": "To filter elements in an array", "isCorrect": false},
+        {"id": 3, "text": "To join elements of an array", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 23,
+      "text": "What is the output of `console.log(0 === false)` in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "true", "isCorrect": false},
+        {"id": 2, "text": "false", "isCorrect": true},
+        {"id": 3, "text": "undefined", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Which method is used to convert a string to an integer in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "parseInt()", "isCorrect": true},
+        {"id": 2, "text": "toInteger()", "isCorrect": false},
+        {"id": 3, "text": "parse()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 25,
+      "text": "What is the purpose of the `split()` method in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "To split a string into an array", "isCorrect": true},
+        {"id": 2, "text": "To join an array into a string", "isCorrect": false},
+        {"id": 3, "text": "To convert a string to lowercase", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Which method is used to reverse the order of elements in an array?",
+      "answers": [
+        {"id": 1, "text": "reverse()", "isCorrect": true},
+        {"id": 2, "text": "sort()", "isCorrect": false},
+        {"id": 3, "text": "invert()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 27,
+      "text": "Which method is used to convert a string to uppercase?",
+      "answers": [
+        {"id": 1, "text": "toUpperCase()", "isCorrect": true},
+        {"id": 2, "text": "toUpper()", "isCorrect": false},
+        {"id": 3, "text": "upperCase()", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 28,
+      "text": "What is the output of `console.log(1 + '1')` in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "2", "isCorrect": false},
+        {"id": 2, "text": "11", "isCorrect": true},
+        {"id": 3, "text": "NaN", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 29,
+      "text": "What does the `JSON.stringify()` method do in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "Converts a JavaScript object into a JSON string", "isCorrect": true},
+        {"id": 2, "text": "Converts a JSON string into a JavaScript object", "isCorrect": false},
+        {"id": 3, "text": "Formats a JSON string", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 30,
+      "text": "What is the difference between `==` and `===` in JavaScript?",
+      "answers": [
+        {"id": 1, "text": "`==` compares value only, `===` compares value and type", "isCorrect": true},
+        {"id": 2, "text": "`==` compares type only, `===` compares value and type", "isCorrect": false},
+        {"id": 3, "text": "`==` compares value and type, `===` compares value only", "isCorrect": false}
+      ]
+    }
+  ]
+}

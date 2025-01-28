@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Exam - ExamO</title>
+    <link rel="shortcut icon" href="img/examImage.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/exams.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- ? User Greeting -->
+    <header class="user-header">
+        <div class="container">
+            <h1>👨‍🦰 Welcome 👋, <span id="userName"></span>!</h1>
+        </div>
+    </header>
+
+    <!-- ? Exams Section -->
+    <section class="exams">
+        <div class="container">
+            <h2>Choose Your Exam</h2>
+            <div class="exam-cards">
+                <div class="card" onclick="startExam('html')">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML Exam</h3>
+                    <p>Test your knowledge of HTML.</p>
+                </div>
+                <div class="card" onclick="startExam('css')">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS Exam</h3>
+                    <p>Test your knowledge of CSS.</p>
+                </div>
+                <div class="card" onclick="startExam('js')">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript Exam</h3>
+                    <p>Test your knowledge of JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/exam.js"></script>
+</body>
+</html>

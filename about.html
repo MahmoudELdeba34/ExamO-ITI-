@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ExamO</title>
+    <link rel="shortcut icon" href="img/examImage.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    <!--  ? Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <img src="img/examoLogo.svg" alt="Hero Image" style="width: 100px;" class="m-2">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ? About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h1><i class="fa-solid fa-address-card" style="color: rgb(86, 150, 22);"></i> About Us</h1>
+            <p>
+                Welcome to <strong>ExamO</strong>, your trusted partner in online education and exam preparation. 
+                Our mission is to provide high-quality resources and tools to help students achieve their academic goals. 
+                Whether you're preparing for school exams, standardized tests, or professional certifications, 
+                ExamO is here to support you every step of the way.
+            </p>
+            <p>
+                At ExamO, we believe that education should be accessible, engaging, and effective. 
+                Our team of experienced educators and developers work tirelessly to create innovative 
+                solutions that make learning easier and more enjoyable.
+            </p>
+
+            <!-- ! Team Section -->
+            <div class="team">
+                <h2><i class="fa-solid fa-user " style="color: rgb(86, 150, 22);"></i> Our Team</h2>
+                <div class="row justify-content-between">
+                    <div class="col-md-4">
+                        <div class="card g-2">
+                            <a href="https://www.linkedin.com/in/mahmoud-ahmed-986276196/" target="_blank">
+                                <img src="img/mahmoud.png" class="card-img-top Testimonial" alt="Team Member 1">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Mahmoud Ahmed</h5>
+                                <p class="card-text">Co-Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a href="https://www.linkedin.com/in/mai-mahmud-2085351b7/" target="_blank">
+                                <img src="img/mai.jpg" class="card-img-top" alt="Team Member 2">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Mai Mahmoud</h5>
+                                <p class="card-text">Software Team Lead </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ! Testimonials Section -->
+            <div class="testimonials mt-5">
+                <h2 ><i class="fa-solid fa-users" style="color: rgb(86, 150, 22);"></i> What Our Users Say </h2>
+                <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- ? Testimonial 1 -->
+                        <div class="carousel-item active">
+                            <div class="testimonial-card text-center p-4">
+                                <img src="img/img3.jpeg" alt="User 1" class="rounded-circle mb-3" width="100">
+                                <h5>Mohmed</h5>
+                                <p class="text-muted">"ExamO helped me ace my exams! The platform is easy to use, and the questions are very relevant."</p>
+                            </div>
+                        </div>
+                        <!-- ? Testimonial 2 -->
+                        <div class="carousel-item">
+                            <div class="testimonial-card text-center p-4">
+                                <img src="img/img2.jpeg" alt="User 2" class="rounded-circle mb-3" width="100">
+                                <h5>Mahmoud</h5>
+                                <p class="text-muted">"I love the variety of questions available. It made my preparation so much easier!"</p>
+                            </div>
+                        </div>
+                        <!-- ? Testimonial 3 -->
+                        <div class="carousel-item">
+                            <div class="testimonial-card text-center p-4">
+                                <img src="img/img1.jpeg" alt="User 3" class="rounded-circle mb-3" width="100">
+                                <h5>Mai</h5>
+                                <p class="text-muted">"The timer feature is fantastic. It helped me manage my time effectively during the exam."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ? Carousel Indicators (Dots) -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonialCarousel" data-slide-to="0" class="bg-dark "></li>
+                        <li data-target="#testimonialCarousel" data-slide-to="1" class="bg-dark"></li>
+                        <li data-target="#testimonialCarousel" data-slide-to="2" class="bg-dark"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ! Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ExamO. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/about.js"></script>
+</body>
+</html>

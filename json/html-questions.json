@@ -1,0 +1,274 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What does HTML stand for?",
+      "answers": [
+        {"id": 1, "text": "Hyperlinks and Text Markup Language", "isCorrect": false},
+        {"id": 2, "text": "Home Tool Markup Language", "isCorrect": false},
+        {"id": 3, "text": "Hyper Text Markup Language", "isCorrect": true}
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Which tag is used to create a hyperlink in HTML?",
+      "answers": [
+        {"id": 1, "text": "<link>", "isCorrect": false},
+        {"id": 2, "text": "<a>", "isCorrect": true},
+        {"id": 3, "text": "<href>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 3,
+      "text": "What is the correct HTML element for the largest heading?",
+      "answers": [
+        {"id": 1, "text": "<h6>", "isCorrect": false},
+        {"id": 2, "text": "<h1>", "isCorrect": true},
+        {"id": 3, "text": "<head>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Which HTML attribute is used to define inline styles?",
+      "answers": [
+        {"id": 1, "text": "class", "isCorrect": false},
+        {"id": 2, "text": "style", "isCorrect": true},
+        {"id": 3, "text": "font", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Which HTML element is used to define the structure of an HTML document?",
+      "answers": [
+        {"id": 1, "text": "<body>", "isCorrect": false},
+        {"id": 2, "text": "<html>", "isCorrect": true},
+        {"id": 3, "text": "<head>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 6,
+      "text": "What is the correct HTML for adding a background color?",
+      "answers": [
+        {"id": 1, "text": "<body bg='yellow'>", "isCorrect": false},
+        {"id": 2, "text": "<body style='background-color:yellow;'>", "isCorrect": true},
+        {"id": 3, "text": "<background>yellow</background>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Which HTML element is used to specify a footer for a document or section?",
+      "answers": [
+        {"id": 1, "text": "<footer>", "isCorrect": true},
+        {"id": 2, "text": "<bottom>", "isCorrect": false},
+        {"id": 3, "text": "<section>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Which HTML element is used to display a scalar measurement within a range?",
+      "answers": [
+        {"id": 1, "text": "<meter>", "isCorrect": true},
+        {"id": 2, "text": "<range>", "isCorrect": false},
+        {"id": 3, "text": "<measure>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Which HTML element is used to define navigation links?",
+      "answers": [
+        {"id": 1, "text": "<nav>", "isCorrect": true},
+        {"id": 2, "text": "<navigation>", "isCorrect": false},
+        {"id": 3, "text": "<navigate>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Which HTML element is used to define a table row?",
+      "answers": [
+        {"id": 1, "text": "<tr>", "isCorrect": true},
+        {"id": 2, "text": "<td>", "isCorrect": false},
+        {"id": 3, "text": "<th>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Which HTML element is used to define a list item?",
+      "answers": [
+        {"id": 1, "text": "<li>", "isCorrect": true},
+        {"id": 2, "text": "<ul>", "isCorrect": false},
+        {"id": 3, "text": "<ol>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Which HTML element is used to define a paragraph?",
+      "answers": [
+        {"id": 1, "text": "<p>", "isCorrect": true},
+        {"id": 2, "text": "<para>", "isCorrect": false},
+        {"id": 3, "text": "<paragraph>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Which HTML element is used to define an image?",
+      "answers": [
+        {"id": 1, "text": "<img>", "isCorrect": true},
+        {"id": 2, "text": "<image>", "isCorrect": false},
+        {"id": 3, "text": "<picture>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Which HTML element is used to define a hyperlink target?",
+      "answers": [
+        {"id": 1, "text": "<a>", "isCorrect": true},
+        {"id": 2, "text": "<link>", "isCorrect": false},
+        {"id": 3, "text": "<target>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Which HTML element is used to define a section in a document?",
+      "answers": [
+        {"id": 1, "text": "<section>", "isCorrect": true},
+        {"id": 2, "text": "<div>", "isCorrect": false},
+        {"id": 3, "text": "<span>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Which HTML element is used to define a header for a document or section?",
+      "answers": [
+        {"id": 1, "text": "<header>", "isCorrect": true},
+        {"id": 2, "text": "<head>", "isCorrect": false},
+        {"id": 3, "text": "<h1>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Which HTML element is used to define a description list?",
+      "answers": [
+        {"id": 1, "text": "<dl>", "isCorrect": true},
+        {"id": 2, "text": "<dt>", "isCorrect": false},
+        {"id": 3, "text": "<dd>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Which HTML element is used to define a table header?",
+      "answers": [
+        {"id": 1, "text": "<th>", "isCorrect": true},
+        {"id": 2, "text": "<td>", "isCorrect": false},
+        {"id": 3, "text": "<tr>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Which HTML element is used to define a table data cell?",
+      "answers": [
+        {"id": 1, "text": "<td>", "isCorrect": true},
+        {"id": 2, "text": "<th>", "isCorrect": false},
+        {"id": 3, "text": "<tr>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Which HTML element is used to define a table?",
+      "answers": [
+        {"id": 1, "text": "<table>", "isCorrect": true},
+        {"id": 2, "text": "<tr>", "isCorrect": false},
+        {"id": 3, "text": "<td>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 21,
+      "text": "Which HTML element is used to define a list?",
+      "answers": [
+        {"id": 1, "text": "<ul>", "isCorrect": true},
+        {"id": 2, "text": "<li>", "isCorrect": false},
+        {"id": 3, "text": "<ol>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 22,
+      "text": "Which HTML element is used to define a numbered list?",
+      "answers": [
+        {"id": 1, "text": "<ol>", "isCorrect": true},
+        {"id": 2, "text": "<ul>", "isCorrect": false},
+        {"id": 3, "text": "<li>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 23,
+      "text": "Which HTML element is used to define a form?",
+      "answers": [
+        {"id": 1, "text": "<form>", "isCorrect": true},
+        {"id": 2, "text": "<input>", "isCorrect": false},
+        {"id": 3, "text": "<button>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Which HTML element is used to define an input field?",
+      "answers": [
+        {"id": 1, "text": "<input>", "isCorrect": true},
+        {"id": 2, "text": "<text>", "isCorrect": false},
+        {"id": 3, "text": "<field>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Which HTML element is used to define a button?",
+      "answers": [
+        {"id": 1, "text": "<button>", "isCorrect": true},
+        {"id": 2, "text": "<input>", "isCorrect": false},
+        {"id": 3, "text": "<submit>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Which HTML element is used to define a dropdown list?",
+      "answers": [
+        {"id": 1, "text": "<select>", "isCorrect": true},
+        {"id": 2, "text": "<dropdown>", "isCorrect": false},
+        {"id": 3, "text": "<list>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 27,
+      "text": "Which HTML element is used to define a text area?",
+      "answers": [
+        {"id": 1, "text": "<textarea>", "isCorrect": true},
+        {"id": 2, "text": "<input>", "isCorrect": false},
+        {"id": 3, "text": "<text>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 28,
+      "text": "Which HTML element is used to define a label for an input field?",
+      "answers": [
+        {"id": 1, "text": "<label>", "isCorrect": true},
+        {"id": 2, "text": "<input>", "isCorrect": false},
+        {"id": 3, "text": "<text>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 29,
+      "text": "Which HTML element is used to define a checkbox?",
+      "answers": [
+        {"id": 1, "text": "<input type='checkbox'>", "isCorrect": true},
+        {"id": 2, "text": "<checkbox>", "isCorrect": false},
+        {"id": 3, "text": "<check>", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 30,
+      "text": "Which HTML element is used to define a radio button?",
+      "answers": [
+        {"id": 1, "text": "<input type='radio'>", "isCorrect": true},
+        {"id": 2, "text": "<radio>", "isCorrect": false},
+        {"id": 3, "text": "<button>", "isCorrect": false}
+      ]
+    }
+  ]
+}

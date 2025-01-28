@@ -1,0 +1,274 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "text": "What does CSS stand for?",
+        "answers": [
+          {"id": 1, "text": "Computer Style Sheets", "isCorrect": false},
+          {"id": 2, "text": "Cascading Style Sheets", "isCorrect": true},
+          {"id": 3, "text": "Creative Style Sheets", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which CSS property is used to change the text color of an element?",
+        "answers": [
+          {"id": 1, "text": "text-color", "isCorrect": false},
+          {"id": 2, "text": "color", "isCorrect": true},
+          {"id": 3, "text": "font-color", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which CSS property is used to control the spacing between elements?",
+        "answers": [
+          {"id": 1, "text": "margin", "isCorrect": true},
+          {"id": 2, "text": "padding", "isCorrect": false},
+          {"id": 3, "text": "spacing", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 4,
+        "text": "How do you center align a div horizontally in CSS?",
+        "answers": [
+          {"id": 1, "text": "text-align: center;", "isCorrect": false},
+          {"id": 2, "text": "margin: 0 auto;", "isCorrect": true},
+          {"id": 3, "text": "align: center;", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which CSS property is used to make text bold?",
+        "answers": [
+          {"id": 1, "text": "font-weight", "isCorrect": true},
+          {"id": 2, "text": "text-bold", "isCorrect": false},
+          {"id": 3, "text": "bold", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 6,
+        "text": "What is the default display property of a <div> element?",
+        "answers": [
+          {"id": 1, "text": "inline", "isCorrect": false},
+          {"id": 2, "text": "block", "isCorrect": true},
+          {"id": 3, "text": "inline-block", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Which CSS property is used to add shadows to elements?",
+        "answers": [
+          {"id": 1, "text": "shadow", "isCorrect": false},
+          {"id": 2, "text": "box-shadow", "isCorrect": true},
+          {"id": 3, "text": "element-shadow", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 8,
+        "text": "How do you include an external CSS file in an HTML document?",
+        "answers": [
+          {"id": 1, "text": "<style src='styles.css'>", "isCorrect": false},
+          {"id": 2, "text": "<link rel='stylesheet' href='styles.css'>", "isCorrect": true},
+          {"id": 3, "text": "<css src='styles.css'>", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Which CSS property is used to change the font of an element?",
+        "answers": [
+          {"id": 1, "text": "font-family", "isCorrect": true},
+          {"id": 2, "text": "font-style", "isCorrect": false},
+          {"id": 3, "text": "text-font", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 10,
+        "text": "What is the purpose of the z-index property in CSS?",
+        "answers": [
+          {"id": 1, "text": "To control the horizontal position of an element", "isCorrect": false},
+          {"id": 2, "text": "To control the vertical position of an element", "isCorrect": false},
+          {"id": 3, "text": "To control the stacking order of elements", "isCorrect": true}
+        ]
+      },
+      {
+        "id": 11,
+        "text": "Which CSS property is used to create rounded corners?",
+        "answers": [
+          {"id": 1, "text": "border-radius", "isCorrect": true},
+          {"id": 2, "text": "corner-radius", "isCorrect": false},
+          {"id": 3, "text": "rounded-corners", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 12,
+        "text": "Which CSS property is used to set the background color of an element?",
+        "answers": [
+          {"id": 1, "text": "background-color", "isCorrect": true},
+          {"id": 2, "text": "color", "isCorrect": false},
+          {"id": 3, "text": "bgcolor", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 13,
+        "text": "Which CSS property is used to control the size of text?",
+        "answers": [
+          {"id": 1, "text": "font-size", "isCorrect": true},
+          {"id": 2, "text": "text-size", "isCorrect": false},
+          {"id": 3, "text": "size", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 14,
+        "text": "Which CSS property is used to add space between the content and the border of an element?",
+        "answers": [
+          {"id": 1, "text": "margin", "isCorrect": false},
+          {"id": 2, "text": "padding", "isCorrect": true},
+          {"id": 3, "text": "spacing", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 15,
+        "text": "Which CSS property is used to make an element invisible?",
+        "answers": [
+          {"id": 1, "text": "visibility: hidden;", "isCorrect": true},
+          {"id": 2, "text": "display: none;", "isCorrect": false},
+          {"id": 3, "text": "opacity: 0;", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 16,
+        "text": "Which CSS property is used to align text horizontally?",
+        "answers": [
+          {"id": 1, "text": "text-align", "isCorrect": true},
+          {"id": 2, "text": "align-text", "isCorrect": false},
+          {"id": 3, "text": "horizontal-align", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 17,
+        "text": "Which CSS property is used to set the opacity of an element?",
+        "answers": [
+          {"id": 1, "text": "opacity", "isCorrect": true},
+          {"id": 2, "text": "transparency", "isCorrect": false},
+          {"id": 3, "text": "visibility", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 18,
+        "text": "Which CSS property is used to create a flexbox layout?",
+        "answers": [
+          {"id": 1, "text": "display: flex;", "isCorrect": true},
+          {"id": 2, "text": "display: grid;", "isCorrect": false},
+          {"id": 3, "text": "display: block;", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 19,
+        "text": "Which CSS property is used to create a grid layout?",
+        "answers": [
+          {"id": 1, "text": "display: grid;", "isCorrect": true},
+          {"id": 2, "text": "display: flex;", "isCorrect": false},
+          {"id": 3, "text": "display: block;", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 20,
+        "text": "Which CSS property is used to add space between grid items?",
+        "answers": [
+          {"id": 1, "text": "gap", "isCorrect": true},
+          {"id": 2, "text": "margin", "isCorrect": false},
+          {"id": 3, "text": "padding", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 21,
+        "text": "Which CSS property is used to create a transition effect?",
+        "answers": [
+          {"id": 1, "text": "transition", "isCorrect": true},
+          {"id": 2, "text": "animation", "isCorrect": false},
+          {"id": 3, "text": "transform", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 22,
+        "text": "Which CSS property is used to rotate an element?",
+        "answers": [
+          {"id": 1, "text": "transform: rotate();", "isCorrect": true},
+          {"id": 2, "text": "rotate", "isCorrect": false},
+          {"id": 3, "text": "animation: rotate();", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 23,
+        "text": "Which CSS property is used to create a gradient background?",
+        "answers": [
+          {"id": 1, "text": "background-image", "isCorrect": true},
+          {"id": 2, "text": "gradient", "isCorrect": false},
+          {"id": 3, "text": "background-gradient", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 24,
+        "text": "Which CSS property is used to create a border around an element?",
+        "answers": [
+          {"id": 1, "text": "border", "isCorrect": true},
+          {"id": 2, "text": "outline", "isCorrect": false},
+          {"id": 3, "text": "border-style", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 25,
+        "text": "Which CSS property is used to set the width of an element?",
+        "answers": [
+          {"id": 1, "text": "width", "isCorrect": true},
+          {"id": 2, "text": "size", "isCorrect": false},
+          {"id": 3, "text": "length", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 26,
+        "text": "Which CSS property is used to set the height of an element?",
+        "answers": [
+          {"id": 1, "text": "height", "isCorrect": true},
+          {"id": 2, "text": "size", "isCorrect": false},
+          {"id": 3, "text": "length", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 27,
+        "text": "Which CSS property is used to set the maximum width of an element?",
+        "answers": [
+          {"id": 1, "text": "max-width", "isCorrect": true},
+          {"id": 2, "text": "width", "isCorrect": false},
+          {"id": 3, "text": "min-width", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 28,
+        "text": "Which CSS property is used to set the minimum height of an element?",
+        "answers": [
+          {"id": 1, "text": "min-height", "isCorrect": true},
+          {"id": 2, "text": "height", "isCorrect": false},
+          {"id": 3, "text": "max-height", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 29,
+        "text": "Which CSS property is used to set the position of an element?",
+        "answers": [
+          {"id": 1, "text": "position", "isCorrect": true},
+          {"id": 2, "text": "align", "isCorrect": false},
+          {"id": 3, "text": "display", "isCorrect": false}
+        ]
+      },
+      {
+        "id": 30,
+        "text": "Which CSS property is used to create a sticky element?",
+        "answers": [
+          {"id": 1, "text": "position: sticky;", "isCorrect": true},
+          {"id": 2, "text": "position: fixed;", "isCorrect": false},
+          {"id": 3, "text": "position: relative;", "isCorrect": false}
+        ]
+      }
+    ]
+  }

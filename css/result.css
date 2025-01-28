@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f8f0; /* ? Light green background */
+}
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+h2 {
+    color: #2e8b57; /* ? Dark green color for the heading */
+}
+.result-message {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.pass {
+    background-color: #28a745; /* ? Green for pass */
+    color: white;
+}
+.fail {
+    background-color: #dc3545; /* ? Red for fail */
+    color: white;
+}
+.btn-primary {
+    background-color: #2e8b57; /* ? Dark green for the button */
+    border-color: #2e8b57;
+}
+.btn-primary:hover {
+    background-color: #3cb371; /* ? Lighter green on hover */
+    border-color: #3cb371;
+}
+.result-details {
+    background-color: #e9f5e9; /* ? Light green background for result details */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.result-details p {
+    margin: 0;
+    font-size: 1.1rem;
+}

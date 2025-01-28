@@ -1,0 +1,287 @@
+body {
+    background-color: #f8f9fa;
+}
+
+/* ? Navbar Styling */
+.navbar {
+    background-color: #28a745; /* ? Green color */
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-brand span {
+    color: #111211;
+    font-weight: 900;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 20vh;
+    transition: all 0.3s ease; /* ? Smooth transition */
+}
+
+/* * Hover Effect */
+.navbar-nav .nav-link:hover {
+    background-color: #ebf5f5; /* ? Dark background on hover */
+    color: #060606 !important; /* ? Green text on hover */
+}
+
+/* ? Active Nav Item */
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #141515;
+    color: #28a745 !important; /* ? Green text for active item */
+    border-bottom: 3px solid #fff;
+}
+
+/* ! Contact Label Design */
+#contact-label {
+    padding: 10px;
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    gap: 15px;
+}
+
+#green {
+    width: 5px;
+    background-color: #28a745;
+    height: 100%;
+}
+
+#contact-label h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #203947;
+}
+
+#contact-label p {
+    font-family: Roboto, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #203947;
+}
+
+/* ! Contact Section */
+.contact-section {
+    padding: 60px 0;
+}
+
+.contact-info {
+    background-color: #28a745; /* ? Green color */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-info h3 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    margin-bottom: 20px;
+    color: #28a745; /* ? Green color */
+}
+
+.contact-form .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form .btn-primary {
+    background-color: #28a745; /* ? Green color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #218838; /* ? Darker green color */
+}
+
+.contact-form .btn-primary:disabled {
+    background-color: #6c757d; /* ? Gray color when disabled */
+    cursor: not-allowed;
+}
+
+/* ! Footer Styling */
+footer {
+    background-color: #28a745; /* ? Green color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
+
+textarea {
+    resize: none;
+}
+
+/*  ! start update in scrollbar  */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--white-color);
+    box-shadow: 10px 10px 10px #ddd inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #28a745;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #660909;
+}
+
+/* ! end update in scrollbar  */
+
+.tee {
+    margin-left: 10px;
+}
+
+/* ? Responsive Styles */
+@media (max-width: 768px) {
+    /* ? Navbar */
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    /* ? Contact Label */
+    #contact-label {
+        flex-direction: column;
+        gap: 0px;
+        height: auto;
+        padding: 20px;
+    }
+
+    #green {
+        width: 100%;
+        height: 5px;
+    }
+
+    #contact-label h1 {
+        font-size: 1.5rem;
+    }
+
+    #contact-label p {
+        font-size: 0.7rem;
+    }
+
+    /* ? Contact Section */
+    .contact-section {
+        padding: 30px 0;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 20px;
+    }
+
+    .contact-info h3,
+    .contact-form h3 {
+        font-size: 1.2rem;
+    }
+
+    .contact-info p,
+    .contact-form .form-control {
+        font-size: 0.9rem;
+    }
+
+    .contact-form .btn-primary {
+        padding: 8px 16px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 15px 0;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* ? Navbar */
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    /* ? Contact Label */
+    #contact-label h1 {
+        font-size: 1.2rem;
+    }
+
+    #contact-label p {
+        font-size: 0.6rem;
+    }
+
+    /* ? Contact Section */
+    .contact-info h3,
+    .contact-form h3 {
+        font-size: 1rem;
+    }
+
+    .contact-info p,
+    .contact-form .form-control {
+        font-size: 0.8rem;
+    }
+
+    .contact-form .btn-primary {
+        padding: 6px 12px;
+    }
+
+    /* ? Footer */
+    footer p {
+        font-size: 0.7rem;
+    }
+}
