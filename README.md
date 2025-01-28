@@ -1,7 +1,7 @@
-# Exemo - Online Examination System and Academy
+# ExamO - Online Examination System and Academy
 
 ## Project Overview
-**Exemo** is an online examination system and programming learning platform. This website provides users with an interactive and engaging environment to enhance their programming skills through exams and learning resources. 
+**ExamO** is an online examination system and programming learning platform. This website provides users with an interactive and engaging environment to enhance their programming skills through exams and learning resources. 
 
 ### Key Features:
 - **Home Page:** A welcoming interface showcasing the purpose of the platform.
