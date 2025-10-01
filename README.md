@@ -59,10 +59,7 @@ It provides an **interactive environment** where users can improve their program
 **ExamO** combines learning and evaluation into one platform, making it easier for users to test their programming knowledge in an engaging, time-bound environment.  
 Its **scalable structure** (JSON-based questions) and **responsive design** make it adaptable and user-friendly.  
 
----
 
-## 📸 Screenshots
-(Add screenshots of your UI in the `assets/screenshots/` folder)
 
 ---
 
